@@ -1,4 +1,4 @@
-const container = document.getElementById("content");
+export const container = document.getElementById("content");
 
 export function createHero() {
     const hero = document.createElement("section");
