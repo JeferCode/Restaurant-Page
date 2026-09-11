@@ -1,2 +1,5 @@
 import "./styles.css"
-alert("como estas?")
+import "./inicio.css"
+import {createHero} from "./inicio.js"
+
+createHero()
