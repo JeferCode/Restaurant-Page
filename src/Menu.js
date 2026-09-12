@@ -1,35 +1,61 @@
 import { container } from "./inicio.js";
+import styles from "./menu.css"
+import HuevosPericos from "./img/HuevosPericos.png";
+import arepaConQueso from "./img/arepaConQueso.jpg";
+import tamal from "./img/Tamal.jpg";
+import panDeBono from "./img/PanDeBono.jpg";
+import bandejaPaisa from "./img/BandejaPaisa.jpg";
+import sancocho from "./img/Sancocho.jpg";
+import arrozConPollo from "./img/ArrozConPollo.jpg";
+import pescadoFrito from "./img/PescadoFrito.jpg";
+import carneAsada from "./img/CarneAsada.jpg";
+import ensalada from "./img/Ensalada.jpg";
+import arepaConCarne from "./img/ArepaConCarne.jpg";
+import empanadasDeCarne from "./img/EmpanadasDeCarne.jpg";
+import patacones from "./img/Patacones.jpg";
+import caldoDeCostilla from "./img/CaldoDeCostilla.jpg";
+import jugoDeLulo from "./img/JugoDeLulo.jpg";
+import jugoDeMango from "./img/JugoDeMango.jpg";
+import chocolate from "./img/Chocolate.jpg";
+import caféNegro from "./img/CaféNegro.jpg";
+
 
 export function sectionDesayuno() {
     const desayuno = document.createElement("section");
     desayuno.classList.add("desayuno");
-    desayuno.innerHTML = `<h2>Desayuno</h2>
-                        <p class="menu desayuno">Huevos pericos</p>
-                        <p class="precio desayuno">$9.000</p>
+    desayuno.innerHTML = `<h2>Desayunos</h2>
 
-                        <p class="menu desayuno">Arepa con queso</p>
-                        <p class="precio desayuno">$8.000</p>
+<div class="comida">
+    <img class="img" src="${HuevosPericos}">
+    <div>
+        <p class="menu">Huevos pericos</p>
+        <p class="precio">$9.000</p>
+    </div>
+</div>
 
-                        <p class="menu desayuno">Calentado con huevo</p>
-                        <p class="precio desayuno">$14.000</p>
+<div class="comida">
+    <img class="img" src="${arepaConQueso}">
+    <div>
+        <p class="menu">Arepa con queso</p>
+        <p class="precio">$8.000</p>
+    </div>
+</div>
 
-                        <p class="menu desayuno">Tamal tolimense</p>
-                        <p class="precio desayuno">$12.000</p>
+<div class="comida">
+    <img class="img" src="${tamal}">
+    <div>
+        <p class="menu">Tamal tolimense</p>
+        <p class="precio">$12.000</p>
+    </div>
+</div>
 
-                        <p class="menu desayuno">Changua</p>
-                        <p class="precio desayuno">$11.000</p>
-
-                        <p class="menu desayuno">Pan de bono</p>
-                        <p class="precio desayuno">$4.000</p>
-
-                        <p class="menu desayuno">Chocolate caliente</p>
-                        <p class="precio desayuno">$5.000</p>
-
-                        <p class="menu desayuno">Café con leche</p>
-                        <p class="precio desayuno">$5.000</p>
-
-                        <p class="menu desayuno">Jugo natural de mango</p>
-                        <p class="precio desayuno">$7.000</p>`
+<div class="comida">
+    <img class="img" src="${panDeBono}">
+    <div>
+        <p class="menu">Pan de bono</p>
+        <p class="precio">$4.000</p>
+    </div>
+</div>`
 
     container.append(desayuno)
 }
@@ -37,37 +63,55 @@ export function sectionDesayuno() {
 export function sectionAlmuerzo() {
     const almuerzo = document.createElement("section");
     almuerzo.classList.add("almuerzo");
-    almuerzo.innerHTML = `<h2>Almuerzo</h2>
+    almuerzo.innerHTML = `<h2>Almuerzos</h2>
 
-                        <p class="menu almuerzo">Bandeja paisa</p>
-                        <p class="precio almuerzo">$28.000</p>
+<div class="comida">
+    <img class="img" src="${bandejaPaisa}">
+    <div>
+        <p class="menu">Bandeja paisa</p>
+        <p class="precio">$28.000</p>
+    </div>
+</div>
 
-                        <p class="menu almuerzo">Ajiaco santafereño</p>
-                        <p class="precio almuerzo">$25.000</p>
+<div class="comida">
+    <img class="img" src="${sancocho}">
+    <div>
+        <p class="menu">Sancocho de gallina</p>
+        <p class="precio">$26.000</p>
+    </div>
+</div>
 
-                        <p class="menu almuerzo">Sancocho de gallina</p>
-                        <p class="precio almuerzo">$26.000</p>
+<div class="comida">
+    <img class="img" src="${arrozConPollo}">
+    <div>
+        <p class="menu">Arroz con pollo</p>
+        <p class="precio">$22.000</p>
+    </div>
+</div>
 
-                        <p class="menu almuerzo">Arroz con pollo</p>
-                        <p class="precio almuerzo">$22.000</p>
+<div class="comida">
+    <img class="img" src="${pescadoFrito}">
+    <div>
+        <p class="menu">Pescado frito con arroz de coco</p>
+        <p class="precio">$30.000</p>
+    </div>
+</div>
 
-                        <p class="menu almuerzo">Sobrebarriga en salsa criolla</p>
-                        <p class="precio almuerzo">$27.000</p>
+<div class="comida">
+    <img class="img" src="${carneAsada}">
+    <div>
+        <p class="menu">Carne asada con papa criolla</p>
+        <p class="precio">$26.000</p>
+    </div>
+</div>
 
-                        <p class="menu almuerzo">Pescado frito con arroz de coco</p>
-                        <p class="precio almuerzo">$30.000</p>
-
-                        <p class="menu almuerzo">Carne asada con papa criolla</p>
-                        <p class="precio almuerzo">$26.000</p>
-
-                        <p class="menu almuerzo">Lentejas con arroz y aguacate</p>
-                        <p class="precio almuerzo">$18.000</p>
-
-                        <p class="menu almuerzo">Ensalada de aguacate y tomate</p>
-                        <p class="precio almuerzo">$10.000</p>
-
-                        <p class="menu almuerzo">Jugo de maracuyá</p>
-                        <p class="precio almuerzo">$7.000</p>`
+<div class="comida">
+    <img class="img" src="${ensalada}">
+    <div>
+        <p class="menu">Ensalada de aguacate y tomate</p>
+        <p class="precio">$10.000</p>
+    </div>
+</div>`
 
     container.append(almuerzo)
 }
@@ -75,25 +119,80 @@ export function sectionAlmuerzo() {
 export function sectionCena() {
     const cena = document.createElement("section");
     cena.classList.add("cena");
-    cena.innerHTML = `<h2>Cena</h2>
+    cena.innerHTML = `<h2>Cenas</h2>
 
-                        <p class="menu cena">Arepa con carne desmechada</p>
-                        <p class="precio cena">$15.000</p>
+<div class="comida">
+    <img class="img" src="${arepaConCarne}">
+    <div>
+        <p class="menu">Arepa con carne desmechada</p>
+        <p class="precio">$15.000</p>
+    </div>
+</div>
 
-                        <p class="menu cena">Arepa con pollo y queso</p>
-                        <p class="precio cena">$14.000</p>
 
-                        <p class="menu cena">Empanadas de carne</p>
-                        <p class="precio cena">$3.500</p>
+<div class="comida">
+    <img class="img" src="${empanadasDeCarne}">
+    <div>
+        <p class="menu">Empanadas de carne</p>
+        <p class="precio">$3.500</p>
+    </div>
+</div>
 
-                        <p class="menu cena">Patacones con hogao y queso</p>
-                        <p class="precio cena">$13.000</p>
+<div class="comida">
+    <img class="img" src="${patacones}">
+    <div>
+        <p class="menu">Patacones con hogao y queso</p>
+        <p class="precio">$13.000</p>
+    </div>
+</div>
 
-                        <p class="menu cena">Caldo de costilla</p>
-                        <p class="precio cena">$15.000</p>
-
-                        <p class="menu cena">Chorizo con arepa</p>
-                        <p class="precio cena">$12.000</p>`
+<div class="comida">
+    <img class="img" src="${caldoDeCostilla}">
+    <div>
+        <p class="menu">Caldo de costilla</p>
+        <p class="precio">$15.000</p>
+    </div>
+</div>`
 
     container.append(cena)
+}
+
+export function sectionBebidas() {
+    const bebidas = document.createElement("section");
+    bebidas.classList.add("bebidas");
+    bebidas.innerHTML = `<h2>Bebidas</h2>
+
+<div class="comida">
+    <img class="img" src="${jugoDeLulo}">
+    <div>
+        <p class="menu">Jugo de lulo</p>
+        <p class="precio">$5.000</p>
+    </div>
+</div>
+
+<div class="comida">
+    <img class="img" src="${jugoDeMango}">
+    <div>
+        <p class="menu">Jugo de mango</p>
+        <p class="precio">$5.000</p>
+    </div>
+</div>
+
+<div class="comida">
+    <img class="img" src="${chocolate}">
+    <div>
+        <p class="menu">Chocolate</p>
+        <p class="precio">$5.000</p>
+    </div>
+</div>
+
+<div class="comida">
+    <img class="img" src="${caféNegro}">
+    <div>
+        <p class="menu">Café negro (tinto)</p>
+        <p class="precio">$3.000</p>
+    </div>
+</div>`
+
+    container.append(bebidas)
 }
