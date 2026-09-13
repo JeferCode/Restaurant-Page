@@ -1,0 +1,55 @@
+.contactos{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 93.6vh;
+    gap: 60px;
+}
+
+.reservas, .domicilios, .ubicacion{
+    width: 700px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reservas{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)
+    ),
+    url(https://cdn.pixabay.com/photo/2020/07/20/05/22/reservation-5421878_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.domicilios{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)
+    ),
+    url(https://cdn.pixabay.com/photo/2022/01/28/12/17/delivery-6974508_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.ubicacion{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)
+    ),
+    url(https://cdn.pixabay.com/photo/2017/08/25/06/54/street-map-2679271_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
