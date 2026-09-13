@@ -26,7 +26,6 @@ npm run build
 
 - Navegación dinámica
 - Diseño responsivo
-- Hot reload en desarrollo
 
 ## 📝 Autor
 
