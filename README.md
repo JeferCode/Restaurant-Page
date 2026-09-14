@@ -16,7 +16,6 @@ Visita el sitio en vivo: https://jefercode.github.io/Restaurant-Page/
 ## 📋 Características
 
 - Navegación dinámica
-- Diseño responsivo
 
 ## 📝 Autor
 
