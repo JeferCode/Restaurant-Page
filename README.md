@@ -2,18 +2,9 @@
 
 Una página web de restaurante construida con Webpack y JavaScript vanilla.
 
-## 🚀 Inicio Rápido
+## 🌐 Sitio en Vivo
 
-```bash
-# Instalar dependencias
-npm install
-
-# Ejecutar en desarrollo
-npm run dev
-
-# Build para producción
-npm run build
-```
+Visita el sitio en vivo: https://jefercode.github.io/Restaurant-Page/
 
 ## 🛠️ Tecnologías
 
